@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+  .navbar, .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+
+  .heading {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .heading .texto1 {
+    color: black !important;
+  }
+  .heading .texto2 {
+    color: #e7e7dc !important;
+  }
+
+  .section1 p {
+    width: 100% !important;
+    text-align: justify !important;
+  }
+  .section1 .img-section1 {
+    display: none;
+  }
+
+  #contacto {
+    display: block;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formulario, .datos-contacto {
+    width: 100%;
+  }
+
+  .formulario {
+    margin-bottom: 10rem;
+  }
+}
+.menu li > a:hover {
+  background-color: #d8d1c7;
+  color: #2a2b2c;
+}
+.menu li > ul {
+  display: none;
+}
+.menu li:hover > ul {
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+h2 {
+  font-family: "Trirong", serif;
+}
+
+a {
+  color: #f1eeea;
+}
+
+.heading {
+  background-image: url(../Imágenes/Balanza-justicia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.heading h1, .heading h2 {
+  color: #e7e7dc;
+  height: 15rem;
+}
+.heading .texto1 {
+  color: #e7e7dc;
+}
+
+#section2 {
+  background-image: url(../Imágenes/Martillo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section3 {
+  background-image: url(../Imágenes/Acuerdo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-section1 {
+  height: 31rem;
+  width: 100%;
+}
+
+.section2title, .section3title {
+  height: 46rem;
+}
+
+p:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+footer {
+  background-color: #010514;
+}
+footer button:hover {
+  background-color: #000000;
+  color: #d8d1c7;
+}
+
+/*# sourceMappingURL=estilos.css.map */

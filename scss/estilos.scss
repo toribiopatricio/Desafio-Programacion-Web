@@ -1,0 +1,114 @@
+@media only screen and (max-width: 600px) {
+    .navbar, .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    .heading {
+        display: flex;
+        flex-wrap: wrap;
+        .texto1 {
+            color: black !important;
+        }
+        .texto2 {
+            color:  rgb(231, 231, 220) !important;
+        }
+    }
+    .section1 {
+        p {
+        width: 100% !important;
+        text-align: justify !important;};
+        .img-section1 {
+            display: none;
+         }
+    }
+    #contacto {
+        display: block;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario, .datos-contacto {
+        width: 100%;
+    }
+    .formulario {
+        margin-bottom: 10rem;
+    }
+}
+
+.menu {
+    li>a:hover {
+    background-color: rgb(216, 209, 199);
+    color: #2a2b2c;
+  };
+    li>ul{
+    display: none;
+  };
+    li:hover>ul {
+    display: block;
+    width: 100%;
+    padding: 20px;
+  }
+}
+h2 {
+    font-family: 'Trirong', serif;
+}
+a {
+     color: rgb(241, 238, 234);
+}
+
+.heading {
+    background-image: url(../Imágenes/Balanza-justicia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    h1, h2 {
+    color: rgb(231, 231, 220);
+    height: 15rem;};
+    .texto1 {
+        color: rgb(231, 231, 220);
+    }
+}
+
+#section2 {
+    background-image: url(../Imágenes/Martillo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3 {
+    background-image: url(../Imágenes/Acuerdo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img-section1  {
+    height: 31rem;
+    width: 100%;
+}
+
+.section2title, .section3title {
+    height: 46rem;
+}
+
+p:hover {
+    transform: scale(1.1);
+    -moz-transform: scale(1.1); 
+    -o-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+}
+
+footer {
+    background-color: #010514;
+    button:hover {
+        background-color: #000000;
+        color: rgb(216, 209, 199);
+    }
+}
+
